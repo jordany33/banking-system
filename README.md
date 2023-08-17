@@ -1,22 +1,26 @@
 # Banking-System
 
-A comprehensive object-oriented banking system written in Java, designed to effectively manage funds, facilitate the creation and deletion of both Checking and Savings accounts, and provide a user-friendly interface for customers and account managers.
+A comprehensive object-oriented banking system written in Java. It is designed to effectively manage funds, facilitate the creation and deletion of both Checking and Savings accounts, and provide a user-friendly interface for customers and account managers. This repository contains both a basic command-line version and a GUI version of the system.
 
 ## Table of Contents
 
 1. [Features](#features)
-2. [Getting Started](#getting-started)
-3. [Usage](#usage)
-4. [Contribution](#contribution)
-5. [License](#license)
+2. [Structure](#structure)
+3. [Getting Started](#getting-started)
+4. [Usage](#usage)
+5. [Contribution](#contribution)
+6. [License](#license)
 
 ## Features
 
 - **Object-Oriented Design:** Built upon fundamental OOP principles for maintainability and scalability.
-- **Account Class:** Base class to represent a general bank account with basic attributes such as account number, balance, etc.
-- **Customer Class:** Represents a bank customer, with personal details and associated bank accounts.
-- **Main Class:** Contains the main execution code, providing an interface for users to interact with their accounts and for managers to oversee account operations.
+- **Two Versions:** Both a basic command-line version and a GUI version for enhanced user experience.
 - **Robust Error Handling:** Comprehensive error checks and messages to guide users through any potential input errors.
+
+## Structure
+
+- **Basic Version:** Located in the `basic` directory. Contains the primary code for the command-line version.
+- **GUI Version:** Located in the `gui` directory. Contains the code for the graphical user interface version, offering a more interactive experience.
 
 ## Getting Started
 
@@ -26,9 +30,9 @@ A comprehensive object-oriented banking system written in Java, designed to effe
 
 2. **Installation**
     - Clone the repository:
-      \```
+      ```
       git clone https://github.com/[username]/Banking-System.git
-      \```
+      ```
     - Open the project using your preferred Java IDE.
     - Ensure that the JDK version matches your system's version.
       
@@ -38,18 +42,19 @@ A comprehensive object-oriented banking system written in Java, designed to effe
 ## Usage
 
 1. **Compilation and Execution**
-    - Navigate to the project directory.
+    - Navigate to the desired version's directory (`basic` or `gui`).
     - Compile the Java classes:
-      \```
+      ```
       javac *.java
-      \```
+      ```
     - Run the Main class:
-      \```
+      ```
       java Main
-      \```
+      ```
 
 2. **System Interaction**
-    - Follow the on-screen prompts to create or delete accounts, check balances, make transactions, and more.
+    - For the `basic` version, follow the on-screen prompts to create or delete accounts, check balances, make transactions, and more.
+    - For the `gui` version, use the graphical interface to interact with the banking system.
     - Managers or administrators might have additional functionalities. Ensure to log in with the appropriate credentials for full access.
 
 ## Contribution
