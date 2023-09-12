@@ -26,7 +26,7 @@ A comprehensive object-oriented banking system written in Java. It is designed t
 
 1. **Prerequisites**
     - Java SE Development Kit (JDK) - version 11 or later is recommended.
-    - Any Integrated Development Environment (IDE) that supports Java.
+    - Any Integrated Development Environment (IDE) that supports Java. Eclipse is recommended.
 
 2. **Installation**
     - Clone the repository:
